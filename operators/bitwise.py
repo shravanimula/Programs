@@ -1,0 +1,8 @@
+a=int(input(' enter a number:'))
+b=int(input('enter b number:'))
+print("bitwise and is:",a & b)
+print("bitwise or is:",a | b)
+print("xor is:",a ^ b)
+print("ones complement:", ~a)
+print("left shift is:", a <<  2)
+print("right shift is:",a >> 2)
