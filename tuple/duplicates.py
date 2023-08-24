@@ -1,0 +1,6 @@
+a=(1,2,3,4,2,3,5)
+print(a)
+s=set(a)
+a=tuple(s)
+print("after removing the duplicates :")
+print(a)
