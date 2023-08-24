@@ -1,0 +1,7 @@
+t=(1,2,3,4,5,6)
+print(t)
+l=list(t)
+num=int(input("enter a number to delete :"))
+l.remove(num)
+t=tuple(l)
+print(t)
