@@ -1,16 +1,8 @@
 class A:
-    def __init__(self):
-        print("constructor")
-    def fun1(self):
-        print("class method")
-    class B:
-        def __init__(self):
-            print("Inner class constructor")
-        def fun2(self):
-            print("Inner class method")
+    num=10
 
+class B:
+    def fun():
+        print("the value of a is:",A.num)
 
-a=A()
-a.fun1()
-b=a.B()
-b.fun2()
+B.fun()
