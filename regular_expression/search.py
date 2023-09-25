@@ -1,4 +1,4 @@
 import re
-a="hello world,hello good morning india 25"
-b=re.search("hello",a)
-print(b)
+a="hello this is the python file"
+result=re.search("th",a)
+print(result)

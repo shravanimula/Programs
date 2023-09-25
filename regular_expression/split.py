@@ -1,4 +1,4 @@
 import re
-a="hello world,hello good morning india"
-b=re.split("hello",a)
-print(b)
+a="hello this is the python file"
+result=re.split("\s",a)
+print(result)
